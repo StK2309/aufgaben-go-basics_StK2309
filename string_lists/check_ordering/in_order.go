@@ -4,17 +4,8 @@ package check_ordering
 // Überprüft, ob die beiden Strings in der Liste in der gegebenen Reihenfolge vorkommen.
 // Gibt `true` zurück, wenn das der Fall ist, ansonsten `false`.
 func CheckOrdering(strings []string, first, second string) bool {
-	pos1 := -1
-	pos2 := -1
-	for i, s := range strings {
-		if s == first {
-			pos1 = i
-		}
-		if s == second {
-			pos2 = i
-		}
-	}
-	return pos1 != -1 && pos2 != -1 && pos1 < pos2
+	// TODO
+	return false
 }
 
 // HINWEIS
@@ -23,6 +14,7 @@ func CheckOrdering(strings []string, first, second string) bool {
 // - Durchlaufen Sie die Liste mit einer Schleife und prüfen Sie für jedes Element, ob es einem der beiden gesuchten Strings entspricht.
 //   Wenn ja, speichern Sie die Position in der entsprechenden Variablen.
 // - Am Ende prüfen Sie, ob beide Strings gefunden wurden und ob die Position des ersten Strings kleiner ist als die des zweiten Strings.
+
 // REMARKS
 // - Diese Aufgabe ist eine komplexere Variante der Aufgabe "Prüfen, ob ein Element in einer Liste vorkommt".
 // - Sie können die Lösung der einfachen Variante als Grundlage verwenden und diese entsprechend erweitern.

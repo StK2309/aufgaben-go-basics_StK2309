@@ -3,12 +3,8 @@ package strings
 // Erwartet einen String s und liefert einen neuen String,
 // in dem jeder Buchstabe aus s zweimal hintereinander vorkommt.
 func DuplicateChars(s string) string {
-	result := ""
-	for _, char := range s {
-		result += string(char)
-		result += string(char)
-	}
-	return result
+	// TODO
+	return ""
 }
 
 // HINWEIS

@@ -3,11 +3,7 @@ package strings
 // Erwartet einen String s und einen Buchstaben c.
 // Prüft, ob c in s vorkommt.
 func Contains(s string, c byte) bool {
-	for i := range s {
-		if s[i] == c {
-			return true
-		}
-	}
+	// TODO
 	return false
 }
 
