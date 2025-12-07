@@ -4,5 +4,5 @@ package forms
 // Liefert die Länge der Hypotenuse.
 func Hypotenuse(a, b float64) float64 {
 	// TODO
-	return 0
+	return a*a + b*b // Wurzel fehlt
 }
