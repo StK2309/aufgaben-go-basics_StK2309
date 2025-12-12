@@ -4,7 +4,14 @@ package rectangles
 // Zeichnet ein Rechteck mit diesen Seitenlängen auf der Konsole.
 // Die Zeichen für Rand und Füllung des Rechtecks werden als Parameter erwartet.
 func DrawRectangle(height, width int, inner, outer string) {
-	// TODO
+	// TODO nicht fertig !!!
+	if height < 1 || width < 1 {
+		return
+	}
+	for i := 0; i < width; i++ {
+
+	}
+
 }
 
 // REMARKS
